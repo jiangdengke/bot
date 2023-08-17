@@ -24,8 +24,8 @@ spring:
 hefengWeatherKey:
 
 #”–µ¿∑≠“Îapi
-APP_KEY: 5dd6de277c39891f
-APP_SECRET: FBPdQRz5JhZ78Sbb7sMFnanNX8PxzyIi
+APP_KEY:
+APP_SECRET:
 #CloseAI key
 closeAI:
   key:
