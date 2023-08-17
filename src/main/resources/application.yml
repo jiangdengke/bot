@@ -1,0 +1,39 @@
+spring:
+  #mysql
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/message?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
+    username: root
+    password: 123456
+    #redis
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      database: 0
+      password:
+  redis:
+    database:
+      db0: 0
+      db1: 1
+      db2: 2
+      db3: 3
+
+
+#和风天气api
+hefengWeatherKey:
+
+#有道翻译api
+APP_KEY: 5dd6de277c39891f
+APP_SECRET: FBPdQRz5JhZ78Sbb7sMFnanNX8PxzyIi
+#CloseAI key
+closeAI:
+  key:
+
+#??
+server:
+  port: 8002
+
+
+#botqq号
+qq: 355895529
